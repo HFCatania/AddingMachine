@@ -5,10 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TextInputComponent } from './text-input/text-input.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    TextInputComponent
+    TextInputComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,8 @@
-<pre>Output goes here. {{log}}</pre>
-<hr />
-<p>text-input goes here! You need to change this to a text input field.</p>
+    <div style="text-align:center">
+        <label >input:
+        <input type="text" size="40" id="First number" placeholder="input here" placeholder="The input format is ( 2 + 2)." class="form-control" #first/>
+
+        <br>
+        <button type="submit" (click) = 'run(first.value)'>Calculate</button>
+    <h3>{{answer}}</h3>
+   
